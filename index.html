@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DF Youtube - Distraction Free Videos</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #111, #333);
+            color: white;
+        }
+
+        
+        nav {
+            background: #ff4d4d;
+            padding: 15px 30px;
+            font-size: 22px;
+            font-weight: 600;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+
+        
+        h1 {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 3rem;
+            font-weight: 600;
+        }
+
+        
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 25px;
+            padding: 40px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        
+        .card {
+            background: #222;
+            border-radius: 15px;
+            overflow: hidden;
+            transition: transform 0.35s ease, box-shadow 0.4s ease;
+            cursor: pointer;
+            text-align: center;
+            padding-bottom: 15px;
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-bottom: 3px solid #ff4d4d;
+        }
+
+        .card:hover {
+            transform: translateY(-10px) scale(1.03);
+            box-shadow: 0 15px 30px rgba(255, 77, 77, 0.4);
+        }
+
+        .card span {
+            display: block;
+            font-size: 1.5rem;
+            margin-top: 12px;
+            color: #ff4d4d;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        a { text-decoration: none; color: inherit; }
+    </style>
+</head>
+
+<body>
+
+    <nav>DF YOUTUBE</nav>
+
+    <h1>Distraction Free Videos</h1>
+
+    <div class="container">
+
+        <a href="music.html" class="card">
+            <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=1170&auto=format&fit=crop">
+            <span>MUSIC</span>
+        </a>
+
+        <a href="tmkoc.html" class="card">
+            <img src="https://i0.wp.com/deadant.co/wp-content/uploads/2023/07/TMKOC.png?fit=1366%2C768&ssl=1">
+            <span>TMKOC</span>
+        </a>
+
+        <a href="anupama.html" class="card">
+            <img src="https://img10.hotstar.com/image/upload/f_auto,q_auto/sources/r1/cms/prod/1453/1531453-i-4fedda990224">
+            <span>ANUPAMA</span>
+        </a>
+
+        <a href="shinchan.html" class="card">
+            <img src="https://www.hdwallpapers.in/thumbs/2021/shinchan_is_standing_with_dog_hd_shinchan-t2.jpg">
+            <span>SHINCHAN</span>
+        </a>
+
+    </div>
+
+</body>
+</html>
